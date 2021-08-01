@@ -1,0 +1,46 @@
+.fondo-home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #c565eb0c 0%, #2cf53613 100%),url('../img/menu.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.presentacion{
+    margin-top: 100px;
+}
+.ir-portafolio{
+    border: 1px solid white;
+    border-radius:50px;
+    width: 220px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.548);
+    cursor: pointer;
+}
+.ir-portafolio:hover{
+    background: rgba(0, 0, 0, 0.774);
+}
+
+/* .cambiar-text:before{
+    content: "";
+    animation: changingTxt 10s linear infinite;
+}
+
+@keyframes changingTxt{
+    0%{
+        content: "de Aplicaciones Web";
+    }
+    20%{
+        content: "de APIs";
+    }
+    40%{
+        content: "Backend";
+    }
+    60%{
+        content: "Web";
+    }
+    100%{
+        content: "de Aplicaciones Web";
+    }
+} */
