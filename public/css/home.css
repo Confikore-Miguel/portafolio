@@ -33,7 +33,7 @@
 .card-about{
     width: 90%;
     height: 500px;
-    box-shadow: 1px 11px 41px 4px rgba(0,0,0,0.75);
+    box-shadow: 1px 11px 41px 4px rgba(0, 0, 0, 0.383);
     background: rgba(217, 187, 219, 0.219);
     margin: auto;
 }
@@ -89,7 +89,7 @@
 .service-card{
     width: 30%;
     height: 400px;
-    box-shadow: 1px 11px 41px 4px rgba(0,0,0,0.75);
+    box-shadow: 1px 11px 41px 4px rgba(0, 0, 0, 0.274);
     border-radius: 10px;
     background: rgba(217, 187, 219, 0.219);
     position: relative;
@@ -127,6 +127,27 @@
 .service-card:hover .img-service {
     background: rgba(108, 19, 168, 0.534);
     border: 5px solid #8ab3d6;
+}
+/* Portafolio */
+#portafolio{
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+}
+.card{
+    box-shadow: 1px 11px 41px 4px rgba(0, 0, 0, 0.294);
+}
+.card img{
+    transition: all .8s ease;
+}
+
+.card:hover img{
+    filter: drop-shadow(0 -6mm 4mm rgba(137, 81, 155, 0.363));
+    transform: scale(1.1);
+}
+
+.card-body{
+    background: rgba(108, 19, 168, 0.253);
 }
 
 /* .cambiar-text:before{

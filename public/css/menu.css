@@ -42,3 +42,8 @@ li:after {
 li:hover:after {
     left: 50%;
 }
+
+.no-style{
+    text-decoration: none;
+    color: white;
+}

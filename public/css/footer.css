@@ -1,0 +1,11 @@
+.fondo-footer{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #6949b4d3 0%, #4516b396 100%),url('/img/footer.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+footer{
+    color: white;
+}
